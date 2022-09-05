@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Project -I..\FWlib\inc -I..\FWlib\src -I..\User_include -I..\User_program 
+-I d:\Keil_for_ARM1\ARM\RV31\INC 
+-I d:\Keil_for_ARM1\ARM\CMSIS\Include 
+-I d:\Keil_for_ARM1\ARM\Inc\ST\STM32F10x 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\Output\sensorless_smo.o" --omf_browse ".\Output\sensorless_smo.crf" --depend ".\Output\sensorless_smo.d" "..\User_program\Sensorless_SMO.c"

@@ -1,0 +1,60 @@
+*** Creating Trace Output File '.\Output\STM32_PMSM_QEncoder.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\core_cm3.o"'
+### List of Objects: adding '".\output\system_stm32f10x.o"'
+### List of Objects: adding '".\output\startup_stm32f10x_md.o"'
+### List of Objects: adding '".\output\misc.o"'
+### List of Objects: adding '".\output\stm32f10x_adc.o"'
+### List of Objects: adding '".\output\stm32f10x_bkp.o"'
+### List of Objects: adding '".\output\stm32f10x_can.o"'
+### List of Objects: adding '".\output\stm32f10x_cec.o"'
+### List of Objects: adding '".\output\stm32f10x_crc.o"'
+### List of Objects: adding '".\output\stm32f10x_dac.o"'
+### List of Objects: adding '".\output\stm32f10x_dbgmcu.o"'
+### List of Objects: adding '".\output\stm32f10x_dma.o"'
+### List of Objects: adding '".\output\stm32f10x_exti.o"'
+### List of Objects: adding '".\output\stm32f10x_flash.o"'
+### List of Objects: adding '".\output\stm32f10x_fsmc.o"'
+### List of Objects: adding '".\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\output\stm32f10x_i2c.o"'
+### List of Objects: adding '".\output\stm32f10x_iwdg.o"'
+### List of Objects: adding '".\output\stm32f10x_pwr.o"'
+### List of Objects: adding '".\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\output\stm32f10x_rtc.o"'
+### List of Objects: adding '".\output\stm32f10x_sdio.o"'
+### List of Objects: adding '".\output\stm32f10x_spi.o"'
+### List of Objects: adding '".\output\stm32f10x_tim.o"'
+### List of Objects: adding '".\output\stm32f10x_usart.o"'
+### List of Objects: adding '".\output\stm32f10x_wwdg.o"'
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\stm32f10x_it.o"'
+### List of Objects: adding '".\output\gpio_int.o"'
+### List of Objects: adding '".\output\timer.o"'
+### List of Objects: adding '".\output\adc_int.o"'
+### List of Objects: adding '".\output\tim1_pwm.o"'
+### List of Objects: adding '".\output\tim1_isr_mcloop.o"'
+### List of Objects: adding '".\output\iq_math.o"'
+### List of Objects: adding '".\output\svpwm_dq.o"'
+### List of Objects: adding '".\output\axis_transform.o"'
+### List of Objects: adding '".\output\tim4_encoder_pwmdac.o"'
+### List of Objects: adding '".\output\task_function.o"'
+### List of Objects: adding '".\output\pi_cale.o"'
+### List of Objects: adding '".\output\usart_rs232.o"'
+### List of Objects: adding '".\output\can.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\core_cm3.o" ".\output\system_stm32f10x.o" ".\output\startup_stm32f10x_md.o" ".\output\misc.o" ".\output\stm32f10x_adc.o" ".\output\stm32f10x_bkp.o" ".\output\stm32f10x_can.o" ".\output\stm32f10x_cec.o" ".\output\stm32f10x_crc.o" ".\output\stm32f10x_dac.o" ".\output\stm32f10x_dbgmcu.o" ".\output\stm32f10x_dma.o" ".\output\stm32f10x_exti.o" ".\output\stm32f10x_flash.o" ".\output\stm32f10x_fsmc.o" ".\output\stm32f10x_gpio.o" ".\output\stm32f10x_i2c.o" ".\output\stm32f10x_iwdg.o" ".\output\stm32f10x_pwr.o" ".\output\stm32f10x_rcc.o" ".\output\stm32f10x_rtc.o" ".\output\stm32f10x_sdio.o" ".\output\stm32f10x_spi.o" ".\output\stm32f10x_tim.o" ".\output\stm32f10x_usart.o" ".\output\stm32f10x_wwdg.o" ".\output\main.o" ".\output\stm32f10x_it.o" ".\output\gpio_int.o" ".\output\timer.o" ".\output\adc_int.o" ".\output\tim1_pwm.o" ".\output\tim1_isr_mcloop.o" ".\output\iq_math.o" ".\output\svpwm_dq.o" ".\output\axis_transform.o" ".\output\tim4_encoder_pwmdac.o" ".\output\task_function.o" ".\output\pi_cale.o" ".\output\usart_rs232.o" ".\output\can.o" 
+--library_type=microlib --strict --scatter ".\Output\STM32_PMSM_QEncoder.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\STM32_PMSM_QEncoder.map" -o .\Output\STM32_PMSM_QEncoder.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\STM32_PMSM_QEncoder.axf'
+### ADS-LD Command File: '.\Output\STM32_PMSM_QEncoder.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\STM32_PMSM_QEncoder.lnp', Handle=0x000007A8
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\STM32_PMSM_QEncoder.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
